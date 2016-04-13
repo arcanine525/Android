@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     EditText password, userName;
@@ -25,16 +26,17 @@ public class MainActivity extends AppCompatActivity {
                 int id = v.getId();
                 String name=userName.getText().toString();
                 String pass=password.getText().toString();
+
                 switch (id){
                     case R.id.logInBtn:
+                        Toast.makeText(MainActivity.this, "Successfull", Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.signUpBtn:
+                        Toast.makeText(MainActivity.this, "Sign Up", Toast.LENGTH_SHORT).show();
                         break;
 
                 }
             }
-
-
         };
 
 
