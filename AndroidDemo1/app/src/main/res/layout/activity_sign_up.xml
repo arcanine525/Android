@@ -8,32 +8,34 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.windows10timt.androiddemo1.SignUp">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="16dp">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sign Up"
             android:textSize="24sp"
-            android:textStyle="bold"/>
-        <EditText
-            android:id="@+id/userName"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/signInuserName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="User name"
-            android:textColor="#9E9E9E"
-            android:layout_marginTop="16dp"/>
-        <EditText
-            android:id="@+id/password"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Password"
-            android:textColor="#9E9E9E"
             android:layout_marginTop="16dp"
-            android:inputType="textPassword"/>
+            android:textColor="#9E9E9E" />
+
+        <TextView
+            android:id="@+id/signInpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="#9E9E9E" />
+
         <Button
             android:id="@+id/backBtn"
             android:layout_width="match_parent"
@@ -43,12 +45,12 @@
             android:text="Back"
             android:textColor="#ffffff" />
         <Button
-            android:id="@+id/signUpBtn"
+            android:id="@+id/showBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
             android:background="#3F51B5"
-            android:text="Sign Up"
+            android:text="Show"
             android:textColor="#ffffff" />
 
     </LinearLayout>
