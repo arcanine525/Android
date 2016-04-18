@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">MusicAppDemo</string>
+    <string name="app_name">My Music Demo</string>
+    <string name="title">WELCOME BACK ARCANINE</string>
 </resources>
